@@ -1,0 +1,129 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    background: linear-gradient(to bottom, #ffafbd, #ffc3a0);
+    color: #4b3e2f;
+    text-align: center;
+}
+
+header {
+    background-color: #4b3e2f;
+    color: #ffffff;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+nav {
+    background-color: #ff6f61;
+    padding: 10px;
+}
+
+nav a {
+    color: #ffffff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #4b3e2f;
+    color: #ffffff;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Countdown Section */
+.countdown-section {
+    background: #fff7f0;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    display: inline-block;
+}
+
+#countdown {
+    font-size: 1.5em;
+    color: #ff3f34;
+}
+
+/* Gallery Section */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.gallery-image {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease-in-out;
+}
+
+.gallery-image:hover {
+    transform: scale(1.05);
+}
+
+/* Main Image */
+.main-image {
+    width: 80%;
+    margin: 20px auto;
+    display: block;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Timeline Section */
+.timeline {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.timeline-event {
+    margin-bottom: 20px;
+    padding: 15px;
+    background: #f9f9f9;
+    border-left: 5px solid #ff6f61;
+    border-radius: 5px;
+    position: relative;
+}
+
+.timeline-event h3 {
+    margin-top: 0;
+    font-size: 1.5em;
+    color: #4b3e2f;
+}
+
+.timeline-event p {
+    font-size: 1.2em;
+    color: #6b5b4a;
+}
+
+.timeline-event:before {
+    content: "🎄";
+    font-size: 2em;
+    position: absolute;
+    left: -35px;
+    top: 15px;
+}
+
